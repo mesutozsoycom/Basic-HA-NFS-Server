@@ -1,5 +1,6 @@
 #!/bin/bash
 #/opt/scripts/nfs_failover.sh
+#chmod +x /opt/scripts/nfs_failover.sh
 
 MOUNT_POINT="/mnt/nfs"
 ACTIVE_NFS="nfs-server-1:/data"
