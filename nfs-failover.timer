@@ -1,0 +1,11 @@
+[Unit]
+Description=NFS Failover Timer (1 dakika)
+
+[Timer]
+OnBootSec=30sec
+OnUnitActiveSec=60sec
+Unit=nfs-failover.service
+Persistent=true
+
+[Install]
+WantedBy=timers.target
